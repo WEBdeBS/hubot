@@ -1,1 +1,1 @@
-web: DEBUG=* bin/hubot -a slack
+web: DEBUG=* OLD_ENABLED=true bin/hubot -a slack

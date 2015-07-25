@@ -34,6 +34,31 @@ Then you can interact with hubot by typing `hubot help`.
     hubot help - Displays all of the help commands that hubot knows about.
     ...
 
+#### Development
+
+If you are developing your own hubot script as an node_modules, simply create a symlink
+in the node_modules dir that points to your node module.
+To avoid restarting hubot everytime you make a change in your script/module, use nodemon:
+
+```
+npm install -g nodemon
+```
+then run hubot
+
+```sh
+nodemon -x bin/hubot
+```
+Nodemon usually ignores the .git and node_modules dirs but you can specify your own settings
+in the nodemon.json file.
+In this case nodemon checks for changes in the node_modules dir
+
+```json
+{
+  "ignore": ".git",
+  "verbose": true
+}
+```
+
 ### Configuration
 
 A few scripts (including some installed by default) require environment
