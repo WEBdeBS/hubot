@@ -15,7 +15,7 @@
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
-    "hubot-save-links": "git://github.com/cirpo/hubot-save-links.git#841a930450b5f284fd05ab1eb6af43dc39947ecf",
+    "hubot-save-links": "git://github.com/cirpo/hubot-save-links.git#a62b87b32b2b55bf6485d6cfc2483ef0597cdf71",
     "hubot-scripts": "^2.16.1",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^3.3.0"
